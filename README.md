@@ -225,6 +225,122 @@ Sorted Array:
 
 Selection Sort repeatedly finds the smallest element from the unsorted portion of the array and places it in its correct position. Although it is easy to understand and requires only constant extra space, it is not suitable for large datasets due to its **O(n²)** time complexity.
 
+# Recursion in Java
+
+This folder contains Java programs to understand the fundamentals of **Recursion**.
+
+## What is Recursion?
+
+Recursion is a programming technique in which a function calls itself to solve a smaller version of the same problem until a **base case** is reached.
+
+### Structure of Recursion
+
+```java
+void recursion() {
+    if(baseCondition) {
+        return;
+    }
+
+    // Work
+    recursion();
+}
+```
+
+---
+
+## Programs Included
+
+| File | Description |
+|------|-------------|
+| Recursion1.java | Print numbers from 1 to N |
+| Recursion2.java | Print numbers from N to 1 |
+| Recursion3.java | Print a string in reverse |
+| Recursion4.java | Reverse string using recursion |
+
+---
+
+##  Concepts Covered
+
+- Base Case
+- Recursive Call
+- Call Stack
+- Backtracking
+- Printing Before Recursion
+- Printing After Recursion
+
+---
+
+## Time Complexity
+
+Most recursion problems:
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+> Space complexity is O(n) because each recursive call is stored in the call stack.
+
+---
+
+##  Example
+
+Input
+
+```
+abcd
+```
+
+Output
+
+```
+dcba
+```
+
+---
+
+## How to Run
+
+Compile
+
+```bash
+javac Recursion4.java
+```
+
+Run
+
+```bash
+java Recursion4
+```
+
+---
+
+## Learning Outcome
+
+After completing these programs, you will understand:
+
+- How recursion works internally.
+- Importance of the base case.
+- Recursive thinking.
+- How the call stack behaves.
+- How to solve basic recursion problems.
+
+---
+
+## 🛠 Technologies Used
+
+- Java
+- VS Code
+- Git & GitHub
+
+---
+
+## Author
+
+**Shubham Joshi**
+
+BCA Graduate | Java | DSA | Web Development
+
+If you found this repository helpful, don't forget to give it a Star.
+
 
 ## Goal
 My goal is to master DSA by learning each algorithm from its fundamentals, understanding its complexity, and implementing it from scratch.
